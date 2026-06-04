@@ -20,7 +20,11 @@ for i in range(9):
 t.done()
 ```
 
+![A star with a red dot](lab13i_fig1.png)
+
 With an angle of 160°, it takes nine iterations to make a figure where the turtle has returned to its starting point. However, if the turn angle is set to 141° and the number of iterations stays at nine, the plot below is created. The turtle has obviously not returned to its starting point, and the figure is incomplete. In a file named `turtle_art.py` write a python function named `parta` that takes in as a parameter a turn angle, then determines the smallest number of iterations needed for the turtle to return to its starting point and plots the resulting figure.
+
+![Another star with a red dot](lab13i_fig2.png)
 
 **Hint:** Every point where the turtle changes direction falls on a circle.
 
@@ -28,10 +32,13 @@ With an angle of 160°, it takes nine iterations to make a figure where the turt
 ### Part B
 Now consider the sequence `01001`, where each zero corresponds to a turn of 30° and move forward, and each one corresponds to a turn of -114° and move forward. One iteration of this sequence is shown below. Write a python function named `partb` that takes in as a parameter a sequence (string) of ones and zeros, then determines the smallest number of iterations needed for the turtle to return to its starting point and plots the resulting figure. Make sure you test your function with different sequences.
 
+![A line with a red dot](lab13i_fig3.png)
+
 
 ### Part C
 Another sequence for making turtle plots is the spiral sequence `110100100010000`. This sequence consists of a one followed by an increasing number of zeros. The first one is followed by no zeros, the second one is followed by one zero, the third one is followed by two zeros, and so on. Each zero corresponds to a turn of 0° and move forward, and each one corresponds to a turn of 90° and move forward. A spiral sequence with 20 ones (and their corresponding zeros) is shown below. Write a python function named `partc` that takes in as parameters a sequence (string), the angle corresponding to zero, and the angle corresponding to one. Then have the function plot the resulting figure. Make sure your function can handle different values for the parameters described. You may want to adjust the distance the turtle moves forward so that the plot does not become too large.
 
+![A square spiral with a red circle in the center](lab13i_fig4.png)
 
 ### Main
 In your main code, call all of your functions to plot the requested figures using the function calls below. More specifically, call your function `parta` with an angle of 160°, then again with an angle of 141°. Next, call your function `partb` with a sequence of `01001`, then again with a sequence of `01001011`. Next, call your function `partc` with a sequence containing 20 ones and turn angles of 0° and 90°, then again with the same sequence and turn angles of 0° and 30°. Next call your function `partc` with a sequence containing 50 ones and turn angles of 0° and 150°, and again with the same sequence containing 50 ones and turn angles of 5° and 108°.
