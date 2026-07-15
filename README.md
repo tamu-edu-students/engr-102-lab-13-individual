@@ -59,11 +59,11 @@ partc(seq1, 0, 30)
 seq2 = ""  # create a spiral sequence with 50 ones
 partc(seq2, 0, 150)
 partc(seq2, 5, 108)
-t.done()   # only need once (at the end) so the window doesn’t close
+t.done()   # only need once (at the end) so the window doesn't close
 ```
 
 ## Frequently Asked Questions
-1. **What goes in the pdf?** Put screenshots of all of your turtle plots in the file. That way we can easily compare against the correct plots.
+1. **What goes in the pdf?** Put screenshots of all of your turtle plots in the file. That way we can easily compare against the correct plots. Please include captions for each plot so we know which is which!
 
 2. **What's up with all the function calls at the end?** You are required to write a total of three functions (but it's okay to write more). You need to call `parta` twice (with different arguments), `partb` twice (with different arguments), and `partc` four times (with... you guessed it... different arguments). You may include other lines of code if you want. Things like `input()` statements (to pause your code), the turtle reset function to clear the window, and more.
 
