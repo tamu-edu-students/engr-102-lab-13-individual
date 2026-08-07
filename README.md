@@ -41,7 +41,7 @@ Another sequence for making turtle plots is the spiral sequence `110100100010000
 ![A square spiral with a red circle in the center](lab13i_fig4.png)
 
 ### Main
-In your main code, call all of your functions to plot the requested figures using the function calls below. More specifically, call your function `parta` with an angle of 160°, then again with an angle of 141°. Next, call your function `partb` with a sequence of `01001`, then again with a sequence of `01001011`. Next, call your function `partc` with a sequence containing 20 ones and turn angles of 0° and 90°, then again with the same sequence and turn angles of 0° and 30°. Next call your function `partc` with a sequence containing 50 ones and turn angles of 0° and 150°, and again with the same sequence containing 50 ones and turn angles of 5° and 108°.
+In your main code, call all of your functions to plot the requested figures using the function calls below. More specifically, call your function `parta` with an angle of 160°, then again with an angle of 141°. Next, call your function `partb` with a sequence of `01001`, then again with a sequence of `01001011`. Next, call your function `partc` with a sequence containing 20 ones (and their corresponding zeros) and turn angles of 0° and 90°, then again with the same sequence and turn angles of 0° and 30°. Next call your function `partc` with a sequence containing 50 ones (and their corresponding zeros) and turn angles of 0° and 150°, and again with the same sequence containing 50 ones and turn angles of 5° and 108°.
 
 You may add additional functions and/or lines of code to print information, pause your program, or generate sequences as needed. **Don't forget to include docstrings in all of your functions!** Then, in a file named `turtle_plots.pdf` copy each figure created from your function calls and write a caption to indicate which figure is which. Submit both your python file and your pdf to Canvas.
 
@@ -59,11 +59,11 @@ partc(seq1, 0, 30)
 seq2 = ""  # create a spiral sequence with 50 ones
 partc(seq2, 0, 150)
 partc(seq2, 5, 108)
-t.done()   # only need once (at the end) so the window doesn’t close
+t.done()   # only need once (at the end) so the window doesn't close
 ```
 
 ## Frequently Asked Questions
-1. **What goes in the pdf?** Put screenshots of all of your turtle plots in the file. That way we can easily compare against the correct plots.
+1. **What goes in the pdf?** Put screenshots of all of your turtle plots in the file. That way we can easily compare against the correct plots. Please include captions for each plot so we know which is which!
 
 2. **What's up with all the function calls at the end?** You are required to write a total of three functions (but it's okay to write more). You need to call `parta` twice (with different arguments), `partb` twice (with different arguments), and `partc` four times (with... you guessed it... different arguments). You may include other lines of code if you want. Things like `input()` statements (to pause your code), the turtle reset function to clear the window, and more.
 
